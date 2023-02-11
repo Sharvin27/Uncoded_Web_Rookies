@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Worker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="title">Get Worker At your doorstep</h1>
+            
+        </header>
+        <form id="survey-form">
+
+            <div class="form-group">
+                <label for="name" id="name-label">Location</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Address" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="age" id="number-label">Price Payable in Rs.</label>
+                <input type="number" name="age" id="number" min="1" max="10000" placeholder="Enter Cost">
+            </div>
+
+            <div class="form-group">
+                <label for="occupation">Choose A Role</label>
+                <select name="occupation" id="dropdown">
+                    <option selected disabled value>Select Your Role</option>
+                    <option value="student">Electrician</option>
+                    <option value="full-time-job">Plumber</option>
+                    <option value="part-time-job">Freelancer</option>
+                    <option value="prefer-to-not-say">Carpenter</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            
+
+            <div class="form-group">
+                <label for="remark">Work Description</label>
+                <textarea name="remark" id="remark" placeholder="Give Detailed Work Description"></textarea>
+            </div>
+
+            <div class="form-group">
+                
+                <a class="submit" href="list_worker.html">Submit </a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
