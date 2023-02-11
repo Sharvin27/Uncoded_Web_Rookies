@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Details</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">
+        <img src="images/cool-background.png" width="77" height="20" alt="Nike home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          
+
+         
+          
+         
+
+          <li>
+            <a href="#" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+
+        <button class="profile-btn" aria-label="profile">
+          <img src="./assets/images/profile.png" width="100" height="100" alt="profile" class="img">
+        </button>
+
+      </div>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div class="product-slides">
+
+            <div class="slider-banner" data-slider>
+              <figure class="product-banner">
+                <img src="images/elec.jpg" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="images/fuse.jpg" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./assets/images/product-3.png" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./assets/images/product-4.png" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+            </div>
+
+            <button class="slide-btn prev" aria-label="Previous image" data-prev>
+              <ion-icon name="chevron-back" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="slide-btn next" aria-label="Next image" data-next>
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="product-content">
+
+            <p class="product-subtitle">Mr.Myron Dabreo</p>
+
+            <h1 class="h1 product-title">Short Circuit Repair</h1>
+
+            <p class="product-text">
+              Replace Fuse because it was burnt and short circuit took place
+            </p>
+
+            <div class="wrapper">
+
+              <span class="price" data-total-price>Rs.3000.00</span>
+
+              
+
+              
+
+            </div>
+
+         
+
+            <button>
+              <a href="../chat-bot-main/index.html" class="cart-btn"></a>
+              <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Chat</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
