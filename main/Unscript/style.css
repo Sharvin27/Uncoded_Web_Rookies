@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Lobster';
+}
+.nav-link{
+    color: rgb(10, 10, 94);
+}
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.nav-item{
+    color: rgb(7, 7, 78);
+    font-weight: 500;
+    padding-left: 35px;
+}
+/* .btn0{
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(1, 1, 1);
+}
+.btn0:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.4s;
+
+}
+.btn1{
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);;
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+
+} */
+form .btn1{
+    margin-right: 25px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    
+}
+
+form .btn1:hover{
+    /* background-color: rgb(0, 0, 0);
+    transition: all 0.4s;
+    color: rgb(45, 2, 236);
+    border: none;
+    outline: none; */
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+
+form .btn1:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+
+form .btn0{
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    will-change: box-shadow,transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    height: 48px;
+    padding: 0 32px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #36395a;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    
+}
+
+form .btn0:hover{
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    transform: translateY(-2px);
+}
+
+form .btn0:active{
+    box-shadow: inset 0px 3px 7px #d6d6e7;
+    transform: translateY(2px);
+}
+
+.main{
+    background-image: url(images/main2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(249, 249, 249);
+}
+.main input{
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+}
+.btn2:hover{
+    background-color: rgb(214, 11, 11);
+    transition: all 0.4s;
+}
+.red{
+    color: red;
+}
+.ceta h1{
+    font-size: 3.5rem;
+    color: rgb(7, 7, 7);
+}
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 2px 1px 23px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 1px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 23px -10px rgba(0,0,0,0.75);
+}
+.btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130, 130, 231);
+    background: transparent;
+    border-radius: 5px;
+    color: rgb(130, 130, 231);;
+    transition: all 0.4s;
+}
+.btn3:hover{
+    background: rgb(102, 102, 214);
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.resume{
+    background: linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)), url(images/img9.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.resume h1{
+    font-size: 3.8rem;
+}
+.apply{
+    background: linear-gradient(rgba(189, 189, 194, 0.719),rgba(130, 136, 157, 0.73)),url(images/cool-background.png)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.apply .card{
+    background-color: rgba(4, 26, 100, 0.801);
+    color: white;
+}.cir1{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cir1 img{
+    border-radius: 50%;
+}
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.perac{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+.btn4{
+    height: 60px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: rgb(243, 73, 73);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+.btn5:hover{
+    background: rgb(214, 11, 11);
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.footer{
+    background: #121626;
+    color: white;
+}
+.footer p{
+    margin: 0;
+    color: #69696b;
+}
+.link{
+    color: #6b6b72;
+    transition: all 0.4s;
+}
+.link:hover{
+    color: #ff2962;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.footer button{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    margin-left: -12px;
+    border-top: 1px solid #ff2962;
+    background: #ff2962;
+    color: white;
+    margin-top: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-container form select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ 
+.form-container form select option{
+    background: #fff;
+}
